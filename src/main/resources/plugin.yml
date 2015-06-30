@@ -1,0 +1,5 @@
+name: TNTtrack
+version: 1
+main: com.oneshotmc.tnttrack.TNTtrack
+description: Replays tnt in slow motion
+softdepend: [HolographicDisplays,PlotSquared]
