@@ -111,7 +111,7 @@ public class RecordPlayer implements Listener {
 						}
 						
 						
-					}, 2);
+					}, 1);
 					tnt.remove();
 					Debug.message(plugin,"FINISHED1");
 					this.cancel();

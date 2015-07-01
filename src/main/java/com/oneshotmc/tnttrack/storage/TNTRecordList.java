@@ -57,7 +57,7 @@ public class TNTRecordList implements Listener{
 				
 			}
 			
-		}, 0, 2);
+		}, 0, 1);
 	}
 	public TNTRecordList(Plugin plugin, int slowMoSpeed, List<TNTRecordList> list){
 		this(plugin,slowMoSpeed);
