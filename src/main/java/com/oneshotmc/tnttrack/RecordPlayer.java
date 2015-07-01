@@ -111,13 +111,13 @@ public class RecordPlayer implements Listener {
 						}
 						
 						
-					}, 1);
+					}, 2);
 					tnt.remove();
 					Debug.message(plugin,"FINISHED1");
 					this.cancel();
 				}
 			}
-		}.runTaskTimer(plugin, 0, 2);
+		}.runTaskTimer(plugin, 0, 1);
 	}
 	public void cancelID(Plugin plugin, int ID){
 		plugin.getServer().getScheduler().cancelTask(ID);
